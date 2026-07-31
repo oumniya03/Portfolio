@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oumniya Moutaouakil | AI Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-panel border-b-0 border-slate-800 transition-all duration-300" id="navbar">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <a href="#" class="font-bold text-xl tracking-tight">OM<span class="text-sky-400">.</span></a>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#about" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Accueil</a>
+                        <a href="#services" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Expertise</a>
+                        <a href="#experience" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Carrière</a>
+                        <a href="#projects" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Projets</a>
+                        <a href="#certifications" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Certifications</a>
+                        <a href="#contact" class="hover:text-sky-400 transition-colors px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex flex-col items-center justify-center text-center min-h-screen">
+        <div class="w-full max-w-4xl mx-auto space-y-8 flex flex-col items-center fade-in-section is-visible">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel text-sky-400 text-sm font-medium mb-4 mx-auto">
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+                </span>
+                Disponible pour des opportunités
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                Bonjour, je suis <br>
+                <span class="gradient-text">Oumniya Moutaouakil</span>
+            </h1>
+            <h2 class="text-2xl md:text-3xl text-slate-300 font-medium h-10 flex items-center justify-center gap-1">
+                <span id="typewriter-text"></span><span class="w-1 h-7 bg-sky-500 animate-pulse"></span>
+            </h2>
+            <div class="flex flex-wrap justify-center gap-4 pt-6">
+                <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center gap-2 shadow-lg shadow-sky-500/20">
+                    Travaillons ensemble <i class="fas fa-arrow-right ml-1"></i>
+                </a>
+                <a href="Medias/cv_oumniya_moutaouakil.pdf" download class="glass-panel hover:bg-slate-800 text-white px-6 py-3 rounded-lg font-medium transition-colors flex items-center gap-2">
+                    <i class="fas fa-download"></i> Télécharger CV
+                </a>
+            </div>
+            <div class="flex justify-center gap-6 pt-6">
+                <a href="https://github.com/oumniya03" target="_blank" class="text-slate-400 hover:text-white transition-colors text-2xl hover-scale"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/oumniya-moutaouakil-054267239" target="_blank" class="text-slate-400 hover:text-[#0a66c2] transition-colors text-2xl hover-scale"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:oumniamoutaouakil@gmail.com" class="text-slate-400 hover:text-sky-400 transition-colors text-2xl hover-scale"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="aboutme" class="py-20 bg-slate-900/30 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                
+                <!-- Image / Élément visuel -->
+                <div class="w-full md:w-1/3 fade-in-section">
+                    <div class="relative w-70 h-70 mx-auto md:mx-0">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-sky-500 to-indigo-500 rounded-2xl blur-xl opacity-30 animate-pulse"></div>
+                        <img src="Medias/img.png" alt="Oumniya Moutaouakil" class="relative z-10 w-full h-full object-cover rounded-2xl border border-slate-700/50 shadow-2xl">
+                    </div>
+                </div>
+
+                <!-- Texte -->
+                <div class="w-full md:w-2/3 fade-in-section">
+                    <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">PRÉSENTATION</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold mb-6">À propos de moi</h3>
+                    
+                    <div class="text-slate-400 space-y-4 text-lg leading-relaxed">
+                        <p>
+    Passionnée par l'intelligence artificielle et l'ingénierie logicielle, je suis convaincue que l'IA ne doit pas rester cantonnée à la recherche, mais devenir un véritable levier de croissance pour les entreprises.
+</p>
+<p>
+    Titulaire d'un Master en Machine Learning Avancé et Intelligence Multimédia, je me suis spécialisée dans la conception d'architectures <strong>Agentic RAG</strong> et le déploiement de <strong>modèles de langage (LLMs)</strong>. Mon projet de fin d'études, mené chez ELAVI, m'a permis de couvrir l'ensemble du cycle de vie d'un projet IA : du <strong>Prompt Engineering</strong> à l'évaluation des systèmes RAG, jusqu'à la mise en production en environnement <strong>MLOps</strong>.
+</p>
+<p>
+    Mon approche allie rigueur mathématique et exigence technique, pour concevoir des systèmes intelligents, fiables et évolutifs, capables de répondre à de véritables enjeux métier.
+</p>
+                    </div>
+                    
+                    <!-- Petits badges de soft skills -->
+                    <div class="flex flex-wrap gap-3 mt-8">
+                        <span class="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700 text-sky-300 text-sm font-medium"><i class="fas fa-lightbulb mr-2"></i> Problem Solving</span>
+                        <span class="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700 text-sky-300 text-sm font-medium"><i class="fas fa-users mr-2"></i> Travail d'équipe</span>
+                        <span class="px-4 py-2 rounded-lg bg-slate-800/50 border border-slate-700 text-sky-300 text-sm font-medium"><i class="fas fa-rocket mr-2"></i> Innovation</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Expertise Section -->
+    <section id="services" class="py-20 bg-slate-900/50 border-y border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Mon Expertise</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Ce que je peux vous apporter</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-panel p-8 rounded-2xl hover-scale fade-in-section">
+                    <div class="w-14 h-14 bg-sky-900/50 rounded-xl flex items-center justify-center mb-6 border border-sky-700/50">
+                        <i class="fas fa-robot text-2xl text-sky-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Agentic AI & RAG</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Création d'agents intelligents et de systèmes RAG pour interroger vos données privées, automatiser des flux et améliorer la précision des LLMs.</p>
+                </div>
+                
+                <div class="glass-panel p-8 rounded-2xl hover-scale fade-in-section" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-indigo-900/50 rounded-xl flex items-center justify-center mb-6 border border-indigo-700/50">
+                        <i class="fas fa-chart-line text-2xl text-indigo-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">Machine Learning Appliqué</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Conception de modèles prédictifs (Deep Learning, NLP, Computer Vision) optimisés et évalués avec rigueur pour résoudre des problèmes complexes.</p>
+                </div>
+                
+                <div class="glass-panel p-8 rounded-2xl hover-scale fade-in-section" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-purple-900/50 rounded-xl flex items-center justify-center mb-6 border border-purple-700/50">
+                        <i class="fas fa-server text-2xl text-purple-400"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-3">DevOps & MLOps</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">Mise en production sécurisée des modèles d'IA via FastAPI, Docker, Kubernetes, et automatisation des pipelines d'entraînement avec MLflow.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-slate-900/30 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">CARRIÈRE</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Expérience Professionnelle</h3>
+            </div>
+
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-sky-500 before:via-slate-700 before:to-transparent">
+                <!-- Exp 1: Stage Elavi (Card style) -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group fade-in-section">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0f172a] bg-sky-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-briefcase text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)]">
+                        <div class="project-card fade-in-section" data-exp-id="elavi">
+                            <div class="project-image">
+                                <img src="Medias/logo_blb.png" alt="Belgian Law Brain" loading="lazy">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/oumniya03/Belgian-Law-Brain-Agentic-RAG.git" target="_blank" class="project-link" title="Voir GitHub"><i class="fab fa-github"></i></a>
+                                        <a href="#" class="project-link more-btn-exp" title="Détails" data-exp-id="elavi"><i class="fas fa-plus"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <span class="text-sky-400 font-bold text-sm">Févr. 2026 - Juin 2026</span>
+                                <h3 class="font-bold text-xl text-white mt-1">Ingénieure IA - Stage PFE (Belgian Law Brain)</h3>
+                                <p class="text-slate-400 text-sm mb-4">Elavi, Casablanca</p>
+                                <p class="text-slate-300 text-sm mb-4">Conception et déploiement d'un conseiller juridique de première ligne (Agentic RAG) intégré à la plateforme Flugia.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Claude Opus 4.7</span>
+                                    <span class="tech-tag">n8n</span>
+                                    <span class="tech-tag">Qdrant</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">Supabase</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Exp 2 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group fade-in-section">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border-4 border-[#0f172a] bg-sky-500 text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-code text-sm"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] glass-panel p-6 rounded-xl hover-scale border-t-4 border-t-sky-500">
+                        <span class="text-sky-400 font-bold text-sm">Juillet 2023 - Août 2023</span>
+                        <h3 class="font-bold text-xl text-white mt-1">Développeur Logiciel (Stage)</h3>
+                        <p class="text-slate-400 text-sm mb-4">École Polytechnique des Génies, Fès</p>
+                        
+                        <div class="text-slate-300 text-sm mb-5 space-y-1.5">
+                            <p>‣ Développement d'une application de gestion des étudiants (C#, SQL Server)</p>
+                            <p>‣ Automatisation de tâches via Python</p>
+                            <p>‣ Réalisation de tests fonctionnels</p>
+                        </div>
+                        
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL Server</span>
+                            <span class="tech-tag">C#</span>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">CURSUS ACADÉMIQUE</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Formation et Diplômes  </h3>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="education-card hover-scale">
+                    <span class="education-year">2026</span>
+                    <h3>Master Machine Learning Avancé et Intelligence Multimédia</h3>
+                    <p>FSDM, Fès</p>
+                </div>
+                <div class="education-card hover-scale">
+                    <span class="education-year">2024</span>
+                    <h3>Licence Fondamentale Sciences Mathématiques et Informatique (SMI)</h3>
+                    <p>FSDM, Fès</p>
+                </div>
+                <div class="education-card hover-scale">
+                    <span class="education-year">2023</span>
+                    <h3>DEUG Sciences Mathématiques et Informatique (SMI)</h3>
+                    <p>FSDM, Fès</p>
+                </div>
+                <div class="education-card hover-scale">
+                    <span class="education-year">2020</span>
+                    <h3>Baccalauréat Sciences Physique BIOF</h3>
+                    <p>Ibn Hazm, Fès</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-900/30 border-t border-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Portfolio</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Projets Récents</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-container">
+                <!-- Les projets seront injectés ici par JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Div pour la Modal dynamique (utilisée pour Projets ET Expérience) -->
+    <div id="project-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title">Titre du Projet</h2>
+            </div>
+            <div class="modal-image" id="modal-image" style="margin-bottom:12px; display:none; position:relative;">
+                <img id="modal-image-img" src="" alt="" style="cursor:pointer;" />
+                <div id="modal-image-caption" class="modal-image-caption"></div>
+            </div>
+            <div class="modal-tech project-tech" id="modal-tags" style="margin-bottom: 20px;">
+                <!-- Tags injectés ici -->
+            </div>
+            <div class="modal-body-content" id="modal-description">
+                <!-- Description détaillée injectée ici -->
+            </div>
+            <div style="margin-top: 30px;">
+                <a id="modal-github-link" href="#" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-white px-6 py-2 rounded-lg font-medium transition-colors inline-flex items-center gap-2">
+                    <i class="fab fa-github"></i> Voir le code source / détails
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-slate-900/30 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Compétences</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Expertises Techniques</h3>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2">
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white">IA & Data Science</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Machine Learning</span>
+                        <span class="skill-chip">Deep Learning</span>
+                        <span class="skill-chip">Systèmes multi-agents</span>
+                        <span class="skill-chip">Reinforcement Learning</span>
+                        <span class="skill-chip">RAG Production</span>
+                        <span class="skill-chip">Prompt Engineering Avancé</span>
+                        <span class="skill-chip">Explainable AI</span>
+                        <span class="skill-chip">XAI (SHAP, LIME)</span>
+                        <span class="skill-chip">Computer Vision</span>
+                        <span class="skill-chip">Web Mining</span>
+                        <span class="skill-chip">Scraping (Playwright/Selenium)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white">Cybersécurité & Biométrie</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Pentesting Automatisé</span>
+                        <span class="skill-chip">LLM + RL</span>
+                        <span class="skill-chip">Nmap</span>
+                        <span class="skill-chip">Curl</span>
+                        <span class="skill-chip">ARP Spoofing</span>
+                        <span class="skill-chip">Wireshark</span>
+                        <span class="skill-chip">Reverse Shell</span>
+                        <span class="skill-chip">Trojan</span>
+                        <span class="skill-chip">Keylogger</span>
+                        <span class="skill-chip">BurpSuite</span>
+                        <span class="skill-chip">Cryptographie</span>
+                        <span class="skill-chip">Canal C2 Socket/TCP</span>
+                        <span class="skill-chip">Kali Linux</span>
+                        <span class="skill-chip">Reconnaissance Faciale</span>
+                        <span class="skill-chip">Reconnaissance Vocale</span>
+                        <span class="skill-chip">Reconnaissance d’Empreintes</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 mt-6">
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white">Cloud, MLOps & DevOps</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Proxmox VE</span>
+                        <span class="skill-chip">KVM</span>
+                        <span class="skill-chip">Docker</span>
+                        <span class="skill-chip">Microservices</span>
+                        <span class="skill-chip">Kubernetes</span>
+                        <span class="skill-chip">MLflow Registry</span>
+                        <span class="skill-chip">Prometheus</span>
+                        <span class="skill-chip">Grafana</span>
+                        <span class="skill-chip">GitHub Actions</span>
+                        
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white">Data & Bases de données</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Data Mining</span>
+                        <span class="skill-chip">Big Data</span>
+                        <span class="skill-chip">Business Intelligence</span>
+                        <span class="skill-chip">Datawarehouse</span>
+                        <span class="skill-chip">Data Governance</span>
+                        <span class="skill-chip">Optimisation</span>
+                        <span class="skill-chip">Méta-heuristiques</span>
+                        <span class="skill-chip">SQL/PLSQL</span>
+                        <span class="skill-chip">Oracle</span>
+                        <span class="skill-chip">Neo4j</span>
+                        <span class="skill-chip">MongoDB</span>
+                        <span class="skill-chip">Hadoop</span>
+                        <span class="skill-chip">Spark</span>
+                        <span class="skill-chip">ChromaDB</span>
+                        <span class="skill-chip">FAISS</span>
+                        <span class="skill-chip">Qdrant</span>
+                        <span class="skill-chip">Supabase/PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 mt-6">
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white mb-4">Frameworks & Librairies</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">TensorFlow</span>
+                        <span class="skill-chip">Keras</span>
+                        <span class="skill-chip">Scikit-learn</span>
+                        <span class="skill-chip">PyTorch</span>
+                        <span class="skill-chip">OpenCV</span>
+                        <span class="skill-chip">Gymnasium</span>
+                        <span class="skill-chip">Flask</span>
+                        <span class="skill-chip">FastAPI</span>
+                        <span class="skill-chip">n8n</span>
+                        <span class="skill-chip">Groq</span>
+                        <span class="skill-chip">OpenRouter</span>
+                        <span class="skill-chip">Cohere</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white mb-4">Programmation & Web</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">MATLAB</span>
+                        <span class="skill-chip">Java</span>
+                        <span class="skill-chip">C/C#</span>
+                        <span class="skill-chip">JavaScript</span>
+                        <span class="skill-chip">React</span>
+                        <span class="skill-chip">Node.js</span>
+                        <span class="skill-chip">Arduino</span>
+                        <span class="skill-chip">HTML5/CSS3</span>
+                        <span class="skill-chip">PHP</span>
+                        <span class="skill-chip">Express.js</span>
+                        <span class="skill-chip">RESTful APIs</span>
+                        <span class="skill-chip">JSX</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid gap-6 md:grid-cols-2 mt-6">
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white mb-4">Conception & Productivité</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Merise</span>
+                        <span class="skill-chip">UML</span>
+                        <span class="skill-chip">LaTeX</span>
+                        <span class="skill-chip">Microsoft Word</span>
+                        <span class="skill-chip">Excel</span>
+                        <span class="skill-chip">PowerPoint</span>
+                        <span class="skill-chip">Access</span>
+                        <span class="skill-chip">Power BI</span>
+                        <span class="skill-chip">Canva</span>
+                        
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4 class="text-xl font-bold text-white mb-4">Systèmes & Plateformes</h4>
+                    <div class="flex flex-wrap gap-3 mt-4">
+                        <span class="skill-chip">Windows</span>
+                        <span class="skill-chip">Linux</span>
+                        <span class="skill-chip">Virtualisation</span>
+                        <span class="skill-chip">Docker</span>
+                        <span class="skill-chip">Kali Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Langues & Certifications Section -->
+    <section id="certifications" class="py-20 bg-slate-900/30 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">QUALIFICATIONS</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Langues & Certifications</h3>
+            </div>
+
+            <div class="grid gap-8 md:grid-cols-2">
+                <!-- Bloc Langues -->
+                <div class="glass-panel p-8 rounded-2xl hover-scale fade-in-section">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 bg-sky-900/50 rounded-xl flex items-center justify-center border border-sky-700/50">
+                            <i class="fas fa-language text-xl text-sky-400"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold text-white">Langues</h4>
+                    </div>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between border-b border-slate-700/50 pb-2">
+                            <span class="text-white font-medium">Arabe</span>
+                            <span class="text-sky-400 text-sm font-semibold bg-sky-500/10 px-3 py-1 rounded-full">Maternelle</span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-slate-700/50 pb-2">
+                            <span class="text-white font-medium">Français</span>
+                            <span class="text-sky-400 text-sm font-semibold bg-sky-500/10 px-3 py-1 rounded-full">Courant</span>
+                        </div>
+                        <div class="flex items-center justify-between border-b border-slate-700/50 pb-2">
+                            <span class="text-white font-medium">Anglais</span>
+                            <span class="text-sky-400 text-sm font-semibold bg-sky-500/10 px-3 py-1 rounded-full">Intermédiaire</span>
+                        </div>
+                        
+                    </div>
+                </div>
+
+               <!-- Bloc Certifications -->
+            <div class="glass-panel p-8 rounded-2xl hover-scale fade-in-section" style="transition-delay: 100ms;">
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-12 h-12 bg-indigo-900/50 rounded-xl flex items-center justify-center border border-indigo-700/50">
+                        <i class="fas fa-certificate text-xl text-indigo-400"></i>
+                    </div>
+                    <h4 class="text-2xl font-bold text-white">Certifications</h4>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-800/50 border border-slate-700/50 transition-colors hover:border-indigo-500/50">
+                        <div class="mt-1">
+                            <i class="fas fa-award text-indigo-400 text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h5 class="text-white font-bold">Data Scientist Associate</h5>
+                            <p class="text-slate-400 text-sm mt-1">DataCamp</p>
+                            <div class="flex items-center justify-between mt-4 border-t border-slate-700/50 pt-3">
+                                <span class="inline-block text-xs font-semibold text-indigo-300 bg-indigo-500/20 px-2 py-1 rounded">2025</span>
+                                
+                                <!-- LIEN POUR OUVRIR LE PDF DANS UN NOUVEL ONGLET -->
+                                <a href="Medias/Data_Scientist_Associate.pdf" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm font-medium text-sky-400 hover:text-sky-300 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i> Voir le certificat
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-900/50 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-section">
+                <h2 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">CONTACT</h2>
+                <h3 class="text-3xl md:text-4xl font-bold">Discutons de votre projet</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start fade-in-section">
+                
+                <!-- Colonne Gauche : Infos de contact -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Contactez-moi</h3>
+                        <p class="text-slate-400 leading-relaxed">
+                            N'hésitez pas à me contacter pour toute question, opportunité ou collaboration. Je serai ravie d'échanger avec vous !
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- Email -->
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-sky-500/10 flex items-center justify-center text-sky-400 shrink-0 border border-sky-500/20">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Email</h4>
+                                <p class="text-slate-400 text-sm">oumniamoutaouakil@gmail.com</p>
+                            </div>
+                        </div>
+                        <!-- Téléphone -->
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-400 shrink-0 border border-purple-500/20">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Téléphone</h4>
+                                <!-- Remplace les X par ton vrai numéro ci-dessous -->
+                                <p class="text-slate-400 text-sm">+212 6 49931484</p>
+                            </div>
+                        </div>
+                        <!-- Localisation -->
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-indigo-500/10 flex items-center justify-center text-indigo-400 shrink-0 border border-indigo-500/20">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-white font-bold text-sm">Localisation</h4>
+                                <p class="text-slate-400 text-sm">Fès, Maroc</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Réseaux Sociaux -->
+                    <div class="flex gap-4 pt-4">
+                        <a href="https://github.com/oumniya03" target="_blank" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-sky-500 transition-colors border border-slate-700">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/oumniya-moutaouakil-054267239" target="_blank" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:bg-[#0a66c2] transition-colors border border-slate-700">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Colonne Droite : Formulaire & CV -->
+                <div class="glass-panel p-8 rounded-2xl">
+                    <!-- REMPLACE L'URL ACTION PAR TON LIEN FORMSPREE -->
+                    <form action="https://formspree.io/f/mojgzpwa" method="POST" class="space-y-5">
+                        <div>
+                            <label class="block text-sm font-medium text-slate-400 mb-1">Nom complet</label>
+                            <input type="text" name="name" required class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-sky-500 transition-colors" placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-400 mb-1">Email</label>
+                            <input type="email" name="email" required class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-sky-500 transition-colors" placeholder="john@example.com">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-400 mb-1">Sujet</label>
+                            <input type="text" name="subject" required class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-sky-500 transition-colors" placeholder="Opportunité AI Engineering...">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-slate-400 mb-1">Message</label>
+                            <textarea name="message" rows="4" required class="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-2.5 text-white focus:outline-none focus:border-sky-500 transition-colors" placeholder="Bonjour Oumniya..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-4 rounded-lg transition-colors shadow-lg shadow-sky-500/20">
+                            Envoyer le message
+                        </button>
+                    </form>
+
+                    <!-- Ligne de séparation et Bouton CV -->
+                    <div class="mt-8 pt-6 border-t border-slate-700/50 text-center">
+                        <p class="text-slate-400 text-sm mb-4">Ou téléchargez mon CV complet :</p>
+                        <a href="Medias/cv_oumniya_moutaouakil.pdf" download class="w-full bg-slate-800 hover:bg-slate-700 text-white font-medium py-3 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 border border-slate-600">
+                            <i class="fas fa-file-pdf text-red-400"></i> Télécharger le CV (PDF)
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-[#0f172a] text-center border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="text-slate-500 text-sm">© 2026 Oumniya. Conçu avec passion.</p>
+        </div>
+    </footer>
+    
+    <!-- Script for projects and modal -->
+    <script src="scripts.js" defer></script>
+    
+    <!-- Lightbox element -->
+    <div id="lightbox">
+        <img id="lightbox-img" src="" alt="" />
+    </div>
+</body>
+</html>
