@@ -19,7 +19,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Système de Recommandation E-commerce (MLOps)",
+        title: "Système de Recommandation E-commerce",
         icon: "fa-shopping-cart",
         image: "Medias/ecommerce.jpg",
         tags: ["MLflow", "Kubernetes", "CI/CD", "FastAPI"],
