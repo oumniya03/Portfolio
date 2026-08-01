@@ -22,7 +22,7 @@ const projectsData = [
         title: "Système de Recommandation E-commerce",
         icon: "fa-shopping-cart",
         image: "Medias/ecommerce.jpg",
-        tags: ["MLflow", "Kubernetes", "CI/CD", "FastAPI"],
+        tags: ["MLflow", "Kubernetes","CI/CD", "FastAPI", "Docker", "SVD"],
         shortDesc: "Pipeline DevOps/MLOps complet pour un modèle SVD de recommandation. CI/CD automatisé, orchestration K8s et monitoring.",
         fullDesc: `
             <p>Ce projet vise à construire et déployer un système de recommandation de produits e-commerce en appliquant les meilleures pratiques industrielles du DevOps et du MLOps.</p>
