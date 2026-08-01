@@ -152,7 +152,7 @@ const projectsData = [
         title: "See For Me (PFE - Image Captioning)",
         icon: "fa-eye",
         image: "Medias/see_for_me.png",
-        tags: ["PyTorch", "VGG-16", "LSTM", "Android"],
+        tags: ["PyTorch", "VGG-16","DenseNet-201", "LSTM", "Android"],
         shortDesc: "Application mobile Android pour assister les malvoyants. Combine Vision par ordinateur et NLP pour analyser et décrire vocalement l'environnement.",
         fullDesc: `
             <p>Mon Projet de Fin d'Études visant à développer une application mobile Android destinée à aider les personnes aveugles ou malvoyantes.</p>
