@@ -22,7 +22,7 @@ const projectsData = [
         title: "Système de Recommandation E-commerce",
         icon: "fa-shopping-cart",
         image: "Medias/ecommerce.jpg",
-        tags: ["MLflow", "Kubernetes","CI/CD", "FastAPI", "Docker", "SVD"],
+        tags: ["MLflow", "Kubernetes","CI/CD", "FastAPI", "Docker", "SVD", "Prometheus", "Grafana", "GitHub Actions"],
         shortDesc: "Pipeline DevOps/MLOps complet pour un modèle SVD de recommandation. CI/CD automatisé, orchestration K8s et monitoring.",
         fullDesc: `
             <p>Ce projet vise à construire et déployer un système de recommandation de produits e-commerce en appliquant les meilleures pratiques industrielles du DevOps et du MLOps.</p>
@@ -41,7 +41,7 @@ const projectsData = [
         title: "RAG Q&A Chatbot",
         icon: "fa-comments",
         image: "Medias/rag.png",
-        tags: ["FastAPI", "Next.js", "Docker", "LangChain", "LLaMA"],
+        tags: ["FastAPI", "Next.js", "Docker", "LangChain", "LLaMA", "FAISS", "Groq API"],
         shortDesc: "Application Full-stack RAG pour interroger des PDF. Pipeline complet : LangChain, FAISS, LLM (Groq API). Containerisée avec Docker.",
         fullDesc: `
             <p>Une application complète Retrieval-Augmented Generation (RAG) capable de répondre aux questions basées sur des documents PDF uploadés.</p>
@@ -60,7 +60,7 @@ const projectsData = [
         title: "Prédiction CTR Multimodale",
         icon: "fa-bullseye",
         image: "Medias/ctr.png",
-        tags: ["PyTorch", "CLIP", "Attention"],
+        tags: ["PyTorch", "CLIP", "Attention", "DNN"],
         shortDesc: "Solution de compétition. Modèle d'optimisation en cascade utilisant CLIP (Texte+Image) couplé à une architecture Attention + DNN. AUC : 0.7752.",
         fullDesc: `
             <p>Développement d'un modèle pour la compétition de Prédiction du Taux de Clics Multimodaux (CTR) basée sur le dataset MicroLens-1M.</p>
@@ -97,7 +97,7 @@ const projectsData = [
         title: "Prédiction Efficacité Énergétique",
         icon: "fa-bolt",
         image: "Medias/pred_batiments.png",
-        tags: ["Scikit-learn", "ELM", "Data Science"],
+        tags: ["Scikit-learn", "ELM", "Backpropagation", "GridSearchCV"],
         shortDesc: "Prédiction des charges de chauffage/refroidissement de bâtiments. Étude comparative entre architecture ELM et Backpropagation classique.",
         fullDesc: `
             <p>Projet académique visant à prédire la charge de chauffage et de refroidissement des bâtiments résidentiels à partir de leurs caractéristiques architecturales.</p>
