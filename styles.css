@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; overflow-x: hidden;}
-body {
-    background-color: #0f172a; /* Ton bleu nuit de base */
-    /* Crée un motif de points très discrets */
-    background-image: radial-gradient(rgba(14, 165, 233, 0.15) 1.5px, transparent 1.5px);
-    background-size: 35px 35px; /* Espacement des points */
-}
 .glass-panel { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
 .gradient-text { background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .hover-scale { transition: transform 0.3s ease, box-shadow 0.3s ease; }
