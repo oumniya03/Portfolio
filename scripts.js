@@ -78,7 +78,7 @@ const projectsData = [
         title: "Student Management App",
         icon: "fa-users",
         image: "Medias/gestion_etud.png",
-        tags: ["React", "Express", "Docker", "MongoDB"],
+        tags: ["React", "Express", "Docker", "MongoDB", "JWT", "XML/XSD"],
         shortDesc: "Application Full Stack de gestion académique avec authentification JWT et importation/exportation de données XML validées XSD.",
         fullDesc: `
             <p>Une application de gestion des étudiants avec architecture 3-tiers conteneurisée.</p>
