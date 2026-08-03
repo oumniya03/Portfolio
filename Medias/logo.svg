@@ -8,13 +8,13 @@
   </defs>
   
   <!-- Fond sombre arrondi -->
-  <rect width="512" height="512" rx="128" fill="#0f172a" />
+  <rect width="512" height="512" rx="128" fill="#ffffff" />
   
   <!-- Bordure lumineuse -->
   <rect x="32" y="32" width="448" height="448" rx="96" fill="none" stroke="url(#om-gradient)" stroke-width="16" />
   
   <!-- Texte "OM" -->
-  <text x="236" y="335" font-family="Arial, sans-serif" font-size="220" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-5">
+  <text x="236" y="335" font-family="Arial, sans-serif" font-size="220" font-weight="900" fill="#0f172a" text-anchor="middle" letter-spacing="-5">
     O<tspan fill="url(#om-gradient)">M</tspan>
   </text>
   
