@@ -11,9 +11,5 @@
   <!-- cx et cy = centre (256,256). r = rayon. stroke-width = épaisseur -->
   <circle cx="256" cy="256" r="160" fill="none" stroke="#ffffff" stroke-width="45" />
   
-  <!-- Le "M" à l'intérieur, parfaitement centré -->
-  <!-- x="256" et text-anchor="middle" permettent de centrer le texte horizontalement -->
-  <text x="256" y="325" font-family="Arial, sans-serif" font-size="200" font-weight="900" fill="url(#om-gradient)" text-anchor="middle">
-    M
-  </text>
+  
 </svg>
