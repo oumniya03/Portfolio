@@ -1,5 +1,41 @@
 const projectsData = [
     {
+        id: 10,
+        title: "O.M. Health AI — Medical RAG Assistant",
+        icon: "fa-heartbeat",
+        image: "Medias/imginter_541x294.png",
+        modalImage: "Medias/health-ai.png",
+        tags: ["FastAPI", "LangChain", "FAISS",  "MCP", "Azure Container Apps", "Docker", "GitHub Actions"],
+        shortDesc: "Assistant médical IA production-ready basé sur une architecture RAG full-stack. Répond aux questions médicales via le dataset MedQuAD (16 000+ Q&A NIH), avec recherche MMR et synthèse LLM côté serveur.",
+        fullDesc: `
+            <p>Un assistant médical IA de niveau production, déployé sur <strong>Azure Container Apps</strong> (backend) et <strong>Vercel</strong> (frontend), conçu autour d'une architecture RAG sécurisée et légère.</p>
+            <h3>🧠 Architecture RAG :</h3>
+            <ul>
+                <li><strong>Base de connaissances :</strong> Dataset MedQuAD (NIH) — 16 000+ paires Q&A médicales validées, indexées dans FAISS avec embeddings HuggingFace <code>all-MiniLM-L6-v2</code>.</li>
+                <li><strong>Recherche MMR :</strong> Maximal Marginal Relevance (fetch_k=20, k=3) pour des résultats diversifiés et non redondants.</li>
+                <li><strong>Synthèse LLM :</strong> Claude Haiku 4.5 via OpenRouter, appelé exclusivement côté serveur — la clé API ne quitte jamais le backend.</li>
+                <li><strong>Index pré-construit :</strong> Chargé depuis Azure Blob Storage au démarrage, cold start &lt; 30s sur 0.5 CPU.</li>
+            </ul>
+            <h3>🔐 Sécurité by Design :</h3>
+            <ul>
+                <li>Clé API stockée en secret Azure Container Apps, jamais exposée au navigateur.</li>
+                <li>Validation Pydantic sur tous les corps de requête.</li>
+                <li>Protection DNS rebinding MCP via <code>TransportSecuritySettings</code>.</li>
+            </ul>
+            <h3>🔌 Endpoint MCP (Model Context Protocol) :</h3>
+            <ul>
+                <li>Expose un outil <code>search_documents</code> via Streamable HTTP pour les agents IA externes (Claude Desktop, agents custom).</li>
+                <li>Intégration vérifiée end-to-end en production.</li>
+            </ul>
+            <h3>🚀 CI/CD & Déploiement :</h3>
+            <ul>
+                <li>Pipeline GitHub Actions : tests → build Docker → push ACR → deploy Azure Container Apps.</li>
+                <li>Secrets re-appliqués à chaque déploiement, Service Principal Azure AD scopé.</li>
+            </ul>
+        `,
+        github: "https://github.com/oumniya03/rag-mcp-azure"
+    },
+    {
         id: 4,
         title: "Pentest Automatisé Hybride",
         icon: "fa-shield-alt",
@@ -242,8 +278,9 @@ function openModal(data) {
     const modalImageImg = document.getElementById('modal-image-img');
     const modalCaption = document.getElementById('modal-image-caption');
 
-    if (data.image) {
-        const src = encodeURI(data.image);
+    const modalSrc = data.modalImage || data.image;
+    if (modalSrc) {
+        const src = encodeURI(modalSrc);
         modalImageImg.src = src;
         modalImageImg.alt = data.title;
         modalCaption.innerText = data.imageCaption || data.title;
