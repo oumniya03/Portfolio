@@ -374,7 +374,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Typewriter animation for hero subtitle
-const typewriterTexts = ["Data Scientist", "AI Engineer", "ML Engineer","Data Engineer","Data Analyst","AI Researcher"];
+const typewriterTexts = ["Data Scientist", "AI Engineer", "ML Engineer","Data Engineer", "Cloud DevOps Engineer","Data Analyst","AI Researcher"];
 const typewriterElement = document.getElementById('typewriter-text');
 let typewriterIndex = 0;
 let typewriterOffset = 0;
